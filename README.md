@@ -1,5 +1,5 @@
 # GoogleGeoText
-Get location description i.e. street number, city, country, etc. from GPS coordinates.
+Get location description i.e. street number, city, country, etc. from GPS coordinates *(tags: google map geo text find geocode api place)*.
 
 It uses "**com.fasterxml.jackson**" for data mapping from incoming (from http://maps.googleapis.com/maps/api/geocode) JSON with geo data to particular POJOs. I beieve, many of J2EE projects should have Jackson as a dependency already.
 
