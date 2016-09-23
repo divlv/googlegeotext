@@ -29,6 +29,7 @@ It uses "**com.fasterxml.jackson**" for data mapping from incoming (from http://
 ```java
 float aLatitude = 53.325025f; // can be "double" or "String" as well
 float aLongitude = -6.24032f; // can be "double" or "String" as well
+GeoText geoText = new GeoText();
 GoogleGeoCode geoTextData = geoText.getTextData(aLatitude, aLongitude);
 
 // Find formatted address string in a Java 8 way ;-)
