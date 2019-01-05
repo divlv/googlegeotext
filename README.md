@@ -21,7 +21,7 @@ It uses "**com.fasterxml.jackson**" for data mapping from incoming (from http://
         <dependency>
        	    <groupId>com.github.divlv</groupId>
        	    <artifactId>googlegeotext</artifactId>
-       	    <version>1.0</version>
+       	    <version>1.1</version>
        	</dependency>
 ```
 
