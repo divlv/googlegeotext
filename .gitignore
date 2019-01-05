@@ -1,0 +1,16 @@
+###################################
+
+# filter everything for the following...
+target
+*.bak
+*.class
+*.jar
+deploy
+~$perv*
+
+
+# ... except the .gitignore...
+!.gitignore
+scripts/setup_environment.bat
+*.dll
+~$p
